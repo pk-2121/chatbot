@@ -1,0 +1,349 @@
+{
+    "Answers" : [
+        {
+            "id" : "aid_1",
+    	    "exercises" : [
+                {
+                    "id" : 1,
+                    "name" : "Cardio Exercise",
+                    "reps" : null,
+                    "times" : null,
+                    "duration" : "20-30 mins"
+                },
+                {
+                    "id" : 2,
+                    "name" : "Chest Press",
+                    "reps" : 16,
+                    "times" : 4,
+                    "duration" : null
+                },
+                {
+                    "id" : 3,
+                    "name" : "Biceps Curling",
+                    "reps" : 20,
+                    "times" : 4,
+                    "duration" : null 
+                },
+                {
+                    "id" : 4,
+                    "name" : "Triceps exte",
+                    "reps" : 20,
+                    "times" : 4,
+                    "duration" : null 
+                },
+                {
+                    "id" : 5,
+                    "name" : "Shoulder Lift",
+                    "reps" : 16,
+                    "times" : 4,
+                    "duration" : null 
+                },
+                {
+                    "id" : 6,
+                    "name" : "Dead Lift",
+                    "reps" : 16,
+                    "times" : 4,
+                    "duration" : null 
+                },
+                {
+                    "id" : 7,
+                    "name" : "Leg Press",
+                    "reps" : 16,
+                    "times" : 4,
+                    "duration" : null 
+                }
+            ],
+            "comment" : "Do resistance training with weight plates for only four to five days"
+        },
+        {
+            "id" : "aid_2",
+    	    "exercises" : [
+                {
+                    "id" : 1,
+                    "name" : "Cardio Exercise",
+                    "reps" : null,
+                    "times" : null,
+                    "duration" : "10 mins"
+                },
+                {
+                    "id" : 2,
+                    "name" : "Chest Press",
+                    "reps" : 8,
+                    "times" : 4,
+                    "duration" : null
+                },
+                {
+                    "id" : 3,
+                    "name" : "Biceps Curling",
+                    "reps" : 8,
+                    "times" : 4,
+                    "duration" : null 
+                },
+                {
+                    "id" : 4,
+                    "name" : "Triceps exte",
+                    "reps" : 8,
+                    "times" : 4,
+                    "duration" : null 
+                },
+                {
+                    "id" : 5,
+                    "name" : "Shoulder Lift",
+                    "reps" : 16,
+                    "times" : 4,
+                    "duration" : "" 
+                },
+                {
+                    "id" : 6,
+                    "name" : "Dead Lift",
+                    "reps" : 16,
+                    "times" : 4,
+                    "duration" : "" 
+                },
+                {
+                    "id" : 7,
+                    "name" : "Leg Press",
+                    "reps" : 8,
+                    "times" : 4,
+                    "duration" : null 
+                }
+            ],
+            "comment" : "Do resistance training with higher weight plates as much as you can pull and push for only two to three days"
+        },
+        {
+            "id" : "aid_3",
+    	    "exercises" : [
+                {
+                    "id" : 1,
+                    "name" : "Cardio Exercise",
+                    "reps" : null,
+                    "times" : null,
+                    "duration" : "15 mins"
+                },
+                {
+                    "id" : 2,
+                    "name" : "Chest Press",
+                    "reps" : 12,
+                    "times" : 4,
+                    "duration" : null
+                },
+                {
+                    "id" : 3,
+                    "name" : "Biceps Curling",
+                    "reps" : 12,
+                    "times" : 4,
+                    "duration" : null 
+                },
+                {
+                    "id" : 4,
+                    "name" : "Triceps exte",
+                    "reps" : 12,
+                    "times" : 4,
+                    "duration" : null 
+                },
+                {
+                    "id" : 5,
+                    "name" : "Shoulder Lift",
+                    "reps" : 12,
+                    "times" : 4,
+                    "duration" : null 
+                },
+                {
+                    "id" : 6,
+                    "name" : "Dead Lift",
+                    "reps" : 12,
+                    "times" : 4,
+                    "duration" : null 
+                },
+                {
+                    "id" : 7,
+                    "name" : "Leg Press",
+                    "reps" : 12,
+                    "times" : 4,
+                    "duration" : null 
+                }
+            ],
+            "comment" : "Do resistance training with weight plates for only three to four days"
+        },
+        {
+            "id" : "aid_4",
+            "exercises" : [
+                {
+                    "id" : 1,
+                    "name" : "Cardio Exercise",
+                    "reps" : null,
+                    "times" : null,
+                    "duration" : "20-30 mins"
+                },
+                {
+                    "id" : 2,
+                    "name" : "Chest Press",
+                    "reps" : 16,
+                    "times" : 4,
+                    "duration" : null
+                },
+                {
+                    "id" : 3,
+                    "name" : "Biceps Curling",
+                    "reps" : 20,
+                    "times" : 4,
+                    "duration" : null
+                },
+                {
+                    "id" : 4,
+                    "name" : "Triceps exte",
+                    "reps" : 20,
+                    "times" : 4,
+                    "duration" : null
+                },
+                {
+                    "id" : 5,
+                    "name" : "Shoulder Lift",
+                    "reps" : 16,
+                    "times" : 4,
+                    "duration" : null
+                },
+                {
+                    "id" : 6,
+                    "name" : "Dead Lift",
+                    "reps" : 16,
+                    "times" : 4,
+                    "duration" : null
+                },
+                {
+                    "id" : 7,
+                    "name" : "Leg Press",
+                    "reps" : 16,
+                    "times" : 4,
+                    "duration" : null
+                }
+            ],
+            "comment" : "Recommended intensity is 70% and above"
+        },
+        {
+            "id" : "aid_5",
+            "exercises" : [
+                {
+                    "id" : 1,
+                    "name" : "Cardio Exercise",
+                    "reps" : null,
+                    "times" : null,
+                    "duration" : "10 mins"
+                },
+                {
+                    "id" : 2,
+                    "name" : "Chest Press",
+                    "reps" : 8,
+                    "times" : 4,
+                    "duration" : null
+                },
+                {
+                    "id" : 3,
+                    "name" : "Biceps Curling",
+                    "reps" : 8,
+                    "times" : 4,
+                    "duration" : null
+                },
+                {
+                    "id" : 4,
+                    "name" : "Triceps exte",
+                    "reps" : 8,
+                    "times" : 4,
+                    "duration" : null
+                },
+                {
+                    "id" : 5,
+                    "name" : "Shoulder Lift",
+                    "reps" : 16,
+                    "times" : 4,
+                    "duration" : ""
+                },
+                {
+                    "id" : 6,
+                    "name" : "Dead Lift",
+                    "reps" : 16,
+                    "times" : 4,
+                    "duration" : ""
+                },
+                {
+                    "id" : 7,
+                    "name" : "Leg Press",
+                    "reps" : 8,
+                    "times" : 4,
+                    "duration" : null
+                }
+            ],
+            "comment" : "Recommended intensity 80% and above"
+        },
+        {
+            "id" : "aid_6",
+            "exercises" : [
+                {
+                    "id" : 1,
+                    "name" : "Cardio Exercise",
+                    "reps" : null,
+                    "times" : null,
+                    "duration" : "15 mins"
+                },
+                {
+                    "id" : 2,
+                    "name" : "Chest Press",
+                    "reps" : 12,
+                    "times" : 4,
+                    "duration" : null
+                },
+                {
+                    "id" : 3,
+                    "name" : "Biceps Curling",
+                    "reps" : 12,
+                    "times" : 4,
+                    "duration" : null
+                },
+                {
+                    "id" : 4,
+                    "name" : "Triceps exte",
+                    "reps" : 12,
+                    "times" : 4,
+                    "duration" : null
+                },
+                {
+                    "id" : 5,
+                    "name" : "Shoulder Lift",
+                    "reps" : 12,
+                    "times" : 4,
+                    "duration" : null
+                },
+                {
+                    "id" : 6,
+                    "name" : "Dead Lift",
+                    "reps" : 12,
+                    "times" : 4,
+                    "duration" : null
+                },
+                {
+                    "id" : 7,
+                    "name" : "Leg Press",
+                    "reps" : 12,
+                    "times" : 4,
+                    "duration" : null
+                }
+            ],
+            "comment" : "Recommended intensity 70% and above"
+        },
+        {
+            "id" : "aid_7",
+            "exercises": null,
+            "comment" : "Since you have injury, we cannot provide a workout plan. Plz meet your doctor first."
+        },
+        {
+            "id" : "aid_8",
+            "exercises" : null,
+            "comment" : "You can ask me about some video recommendation, mindfulness program and other gym related knowledge."
+        },
+        {
+            "id" : "aid_9",
+            "exercises": null,
+            "recommendation" : "We had a great conversation. Bye"
+        }
+    ]
+}

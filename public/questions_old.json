@@ -1,0 +1,334 @@
+{
+    "Questions" : 
+    [ 
+        {
+            "id" : "qid_1",
+            "question" : "We can provide you a general overall workout plan. Would you like to start it?",
+            "keywords" :[
+                {
+                    "key" : ["yes", "ok", "go ahead", "okay", "fine", "lets start", "please", "give", "provide", "yea", "yeah"],
+                    "category" : "general"
+                },
+                {
+                    "key" : ["specific", "particular"],
+                    "category" : "specific"
+                },
+                {
+                    "key" : ["nutrition", "meal"],
+                    "category" : "nutrition"
+                },
+                {
+                    "key" : ["no", "dont", "do not"],
+                    "category" : "other"
+                }
+            ],
+            "function" : null,
+            "prerequisite" : null,
+            "link" : [
+                {
+                    "category" : "general",
+                    "id" : ["qid_2"]
+                },
+                {
+                    "category" : "specific",
+                    "id" : ["qid_4"]
+                },
+                {
+                    "category" : "nutrition",
+                    "id" : ["qid_13"]
+                },
+                {
+                	"category" : "other",
+                	"id" : [ "qid_3", "qid_12", "qid_13"]
+                }
+            ],
+            "comment" : "Since I am a limited bot, I cannot fully understand what you have said. Could you please choose 'yes' or 'no'. Sorry for inconvenience."
+        },
+        {
+            "id" : "qid_2",
+            "question" : "What is your fitness goal like weight loss, muscle gain, or over all fitness?",
+            "mandatory" : "Yes",
+            "keywords" :[
+                {
+                    "key" : ["loss", "reduce"],
+                    "category" : "loss"
+                },
+                {
+                    "key" : ["gain", "muscle"],
+                    "category" : "gain"
+                },
+                {
+                    "key" : ["fitness", "fit", "overall"],
+                    "category" : "fitness"
+                }
+            ],
+            "function" : null,
+            "prerequisite" : null,
+            "link" : [
+                {
+                    "category" : "loss",
+                    "id" : ["aid_1"]
+                },
+                {
+                    "category" : "gain",
+                    "id" : ["aid_2"]
+                },
+                {
+                    "category" : "fitness",
+                    "id" : ["aid_3"]
+                },
+                {
+                    "category" : "next",
+                    "id" : [ "qid_3", "qid_12", "qid_13" ]
+                }
+
+            ],
+            "comment" : "Since I am a limited bot, I cannot fully understand what you have said. Could you please choose weight gain, weight loss or overall fitness. Sorry for inconvenience."
+        },
+        {
+            "id" : "qid_3",
+            "question" : "We can also provide you a specific workout plan tailored to your needs. Would you like to get it?",
+            "mandatory" : "False",
+            "keywords" :[
+                {
+                    "key" : ["yes", "ok", "go ahead", "okay", "fine", "lets start", "please", "give", "provide", "yea", "yeah"],
+                    "category" : "specific"
+                },
+                {
+                    "key" : ["general", "overall"],
+                    "category" : "general"
+                },
+                {
+                    "key" : ["no", "dont", "do not"],
+                    "category" : "other"
+                }
+            ],
+            "function" : null,
+            "prerequisite" : null,
+            "link" : [
+                {
+                    "category" : "specific",
+                    "id" : ["qid_4"]
+                },
+                {
+                    "category" : "general",
+                    "id" : ["qid_2"]
+                },
+                {
+                	"category" : "other",
+                	"id" : [ "qid_1", "qid_12", "qid_13" ]
+                }
+            ],
+            "comment" : "Since I am a limited bot, I cannot fully understand what you have said. Could you please choose 'yes' or 'no'. Sorry for inconvenience."
+        },
+        {
+            "id" : "qid_4",
+            "question" : "What is your age?",
+            "mandatory" : "True",
+            "keywords" : null,
+            "function" : "getAge",
+            "prerequisite" : null,
+            "link" : [
+                {
+                    "category" : "next",
+                    "id" : ["qid_5"]
+                }
+            ],
+            "comment" : "Please provide the integer data."
+        },
+        {
+            "id" : "qid_5",
+            "question" : "What is your current weight in kg?",
+            "mandatory" : "True",
+            "keywords" : null,
+            "function" : "weightInKg",
+            "prerequisite" : null,
+            "link" :[
+                {
+                    "category" : "next",
+                    "id" : ["qid_6"]
+                }
+            ],
+            "comment" : "Please provide the data in kg measurement"
+        },
+        {
+            "id" : "qid_6",
+            "question" : "What is your height in cm?",
+            "mandatory" : "True",
+            "keywords" : null,
+            "function" : "heightInCm",
+            "prerequisite" : null,
+            "link" :[
+                {
+                    "category" : "next",
+                    "id" : ["qid_7"]
+                }
+            ],
+            "comment" : "Since this is a mandatory question to calculate your require exercise, please provide the data in integer form"
+        },
+        {
+            "id" : "qid_7",
+            "question" : "What is your gender?",
+            "mandatory" : "True",
+            "keywords" : [
+            	{
+            		"key" : ["female", "f"],
+            		"category": "female"
+            	},
+            	{
+            		"key" : ["male", "m"],
+            		"category": "male"
+            	}
+            ],
+            "function" : null,
+            "prerequisite" : null,
+            "link" :[
+                {
+                    "category" : "next",
+                    "id" : ["qid_8"]
+                }
+            ],
+            "comment" : "Since this is a mandatory question to calculate your require exercise, please provide the data"
+        },
+        {
+            "id" : "qid_8",
+            "question" : "Are you an active player? (which means you are currently playing or will start now)",
+            "mandatory" : "True",
+            "keywords" : [
+                {
+                    "key" : ["start", "not"],
+                    "category": "starter"
+                },
+            	{
+            		"key" : ["active", "playing"],
+            		"category": "active"
+            	}
+            ],
+            "function" : null,
+            "prerequisite" : null,
+            "link" :[
+                {
+                    "category" : "next",
+                    "id" : ["qid_9"]
+                }
+            ],
+            "comment" : "Since this is a mandatory question to calculate your require exercise, please provide the data"
+        },
+        {
+            "id" : "qid_9",
+            "question" : "How many session would you like to have per week?",
+            "mandatory" : "True",
+            "keywords" : null,
+            "function" : "getNumberOfSession",
+            "prerequisite" : null,
+            "link" :[
+                {
+                    "category" : "next",
+                    "id" : ["qid_10"]
+                }
+            ],
+            "comment" : "Please provide the integer data which is less than 7"
+        },
+        {
+            "id" : "qid_10",
+            "question" : "How many minutes would you like to play per session?",
+            "mandatory" : "True",
+            "keywords" : null,
+            "function" : "sessionTime",
+            "prerequisite" : null,
+            "link" :[
+                {
+                    "category" : "next",
+                    "id" : ["qid_11"]
+                }
+            ],
+            "comment" : "Since this is a mandatory question to calculate your require exercise, please provide the data"
+        },
+        {
+            "id" : "qid_11",
+            "question" : "Do you have any existing medical conditions or injuries that may affect your ability to exercise?",
+            "mandatory" : "True",
+            "keywords" :[
+                {
+                    "key" : ["no", "dont", "do not"],
+                    "category" : "free"
+                },
+                {
+                    "key" : ["yes", "have"],
+                    "category" : "injuries"
+                }
+            ],
+            "function" : "getSpecificPlan",
+            "prerequisite" : {
+                "id" : [ "qid_4", "qid_5","qid_6", "qid_7", "qid_8","qid_9", "qid_10"]
+            },
+            "link" : [
+            	{
+            		"category" : "injuries",
+            		"id" : ["aid_7"]
+            	},
+            	{
+	            	"category" : "next",
+	            	"id" : 
+                    [ 
+	            		"qid_1", "qid_12", "qid_13"
+	            	]
+            	}
+            ],
+            "comment" : "Since this is a mandatory question to calculate your specific workout plan, please provide the data"
+        },
+        {
+            "id" : "qid_12",
+            "question" : "We can provide you sample stretching exercises, would you like to get it?",
+            "mandatory" : "False",
+            "keywords" :[
+                {
+                    "key" : ["yes", "ok", "go ahead", "okay", "fine", "lets start", "yeah", "love", "like"],
+                    "category" : "video"
+                }
+            ],
+            "function" : null,
+            "prerequisite" : null,
+            "link" : [
+                {
+                    "category" : "video",
+                    "id" : ["aid_4"]
+                },
+                {
+                	"category" : "next",
+                	"id" : ["qid_1", "qid_3", "qid_13"]
+                }
+            ],
+            "comment" : "Since this is a mandatory question to calculate your require exercise, please provide the data"
+        },
+        {
+            "id" : "qid_13",
+            "question" : "Is there anything you would like to ask?",
+            "mandatory" : "No",
+            "keywords" :[
+                {
+                    "key" : ["yes", "fine", "yeah", "love", "like"],
+                    "category" : "continue"
+                },
+                {
+                    "key" : ["no", "dont", "dont", "bye"],
+                    "category" : "terminate"
+                }
+            ],
+            "function" : null,
+            "prerequisite" : null,
+            "link" : [
+                {
+                    "category" : "terminate",
+                    "id" :["aid_9"]
+                },
+                {
+                	"category" : "continue",
+                	"id" : ["aid_8"]
+                }
+            ],
+            "comment" : null
+        }
+
+    ]
+}

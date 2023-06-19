@@ -1,0 +1,1149 @@
+{
+  "answers": [
+    {
+        "id": "aid_0",
+        "exercises": [
+          {
+            "session": null,
+            "plan": [
+              {
+                "name": "Cardio Exercise",
+                "reps": "10 mins"
+              },
+              {
+                "name": "Chest Press",
+                "reps": "8 reps x 4 times"
+              },
+              {
+                "name": "Biceps Curling",
+                "reps": "8 reps x 4 times"
+              },
+              {
+                "name": "Triceps Extension",
+                "reps": "8 reps x 4 times"
+              },
+              {
+                "name": "Shoulder Lift",
+                "reps": "8 reps x 4 times"
+              },
+              {
+                "name": "Dead Lift",
+                "reps": "8 reps x 4 times"
+              },
+              {
+                "name": "Leg Press",
+                "reps": "8 reps x 4 times"
+              }
+            ]
+          }
+        ],
+        "info": null,
+        "comment" : "Do resistance training with weight plates for only four to five days"
+    },
+    {
+        "id": "aid_1",
+        "exercises": [
+          {
+            "session": null,
+            "plan": [
+              {
+                "name": "Cardio Exercise",
+                "reps": "10 mins"
+              },
+              {
+                "name": "Chest Press",
+                "reps": "8 reps x 4 times"
+              },
+              {
+                "name": "Biceps Curling",
+                "reps": "8 reps x 4 times"
+              },
+              {
+                "name": "Triceps Extension",
+                "reps": "8 reps x 4 times"
+              },
+              {
+                "name": "Shoulder Lift",
+                "reps": "8 reps x 4 times"
+              },
+              {
+                "name": "Dead Lift",
+                "reps": "8 reps x 4 times"
+              },
+              {
+                "name": "Leg Press",
+                "reps": "8 reps x 4 times"
+              }
+            ]
+          }
+        ],
+        "info": null,
+        "comment" : "Do resistance training with higher weight plates as much as you can pull and push for only two to three days"
+    },
+    {
+        "id": "aid_2",
+        "exercises": [
+          {
+            "session": null,
+            "plan": [
+              {
+                "name": "Cardio Exercise",
+                "reps": "15 mins"
+              },
+              {
+                "name": "Chest Press",
+                "reps": "12 reps x 4 times"
+              },
+              {
+                "name": "Biceps Curling",
+                "reps": "12 reps x 4 times"
+              },
+              {
+                "name": "Triceps Extension",
+                "reps": "12 reps x 4 times"
+              },
+              {
+                "name": "Shoulder Lift",
+                "reps": "12 reps x 4 times"
+              },
+              {
+                "name": "Dead Lift",
+                "reps": "12 reps x 4 times"
+              },
+              {
+                "name": "Leg Press",
+                "reps": "12 reps x 4 times"
+              }
+            ]
+          }
+        ],
+        "info": null,
+        "comment": "Do resistance training with weight plates for only three to four days"
+    },
+    {
+        "id": "aid_3",
+        "exercises": [
+          {
+            "session": "day 1",
+            "plan": [
+              {
+                "name": "Cardio Exercise",
+                "reps": "30 mins"
+              },
+              {
+                "name": "Bench Press",
+                "reps": "20 reps x 4 times"
+              },
+              {
+                "name": "Inclined Bench Press",
+                "reps": "20 reps x 4 times"
+              },
+              {
+                "name": "Declined Bench Press",
+                "reps": "20 reps x 4 times"
+              },
+              {
+                "name": "Bicep barbell curl",
+                "reps": "20 reps x 4 times"
+              },
+              {
+                "name": "Bicep dumbbell curl",
+                "reps": "20 reps x 4 times"
+              },
+              {
+                "name": "Hammer curl",
+                "reps": "20 reps x 4 times"
+              }
+            ]
+          },
+          {
+            "session": "day 2",
+            "plan": [
+              {
+                "name": "Cardio Exercise",
+                "reps": "25 mins"
+              },
+              {
+                "name": "Overhead press",
+                "reps": "18 reps x 4 times"
+              },
+              {
+                "name": "Arnold Press",
+                "reps": "18 reps x 4 times"
+              },
+              {
+                "name": "Dumbbell lateral raise",
+                "reps": "18 reps x 4 times"
+              },
+              {
+                "name": "Plank",
+                "reps": "2 mins x 4 times"
+              },
+              {
+                "name": "Bicycle Crunch",
+                "reps": "1 min x 4 times"
+              },
+              {
+                "name": "Sit-up",
+                "reps": "30 reps x 4 times"
+              },
+              {
+                "name": "Russian Twist",
+                "reps": "2 mins x 4 times"
+              }
+            ]
+          },
+          {
+            "session": "day 3",
+            "plan": [
+              {
+                "name": "Pull-up",
+                "reps": "10 reps x 3 times"
+              },
+              {
+                "name": "Seated cable row",
+                "reps": "20 reps x 4 times"
+              },
+              {
+                "name": "Bent-over row",
+                "reps": "20 reps x 4 times"
+              },
+              {
+                "name": "Deadlift",
+                "reps": "16 reps x 4 times"
+              },
+              {
+                "name": "Overhead tricep extension",
+                "reps": "20 reps x 4 times"
+              },
+              {
+                "name": "Lying tricep extension",
+                "reps": "20 reps x 4 times"
+              },
+              {
+                "name": "Close grip bench press",
+                "reps": "20 reps x 4 times"
+              }
+            ]
+          },
+          {
+            "session": "day 4",
+            "plan": [
+              {
+                "name": "Cardio exercise",
+                "reps": "15 mins"
+              },
+              {
+                "name": "Squat",
+                "reps": "16 reps x 4 times"
+              },
+              {
+                "name": "Half squat",
+                "reps": "16 reps x 4 times"
+              },
+              {
+                "name": "Reverse Lunge",
+                "reps": "16 reps x 4 times"
+              },
+              {
+                "name": "Standing barbell calf raise",
+                "reps": "25 reps x 4 times"
+              }
+            ]
+          },
+          {
+            "session": "day 5",
+            "plan": [
+              {
+                "name": "Cardio exercise",
+                "reps": "30 mins"
+              },
+              {
+                "name": "Zumba or Boxing",
+                "reps": "30 mins"
+              },
+              {
+                "name": "Plank",
+                "reps": "2 mins x 4 times"
+              },
+              {
+                "name": "Bicycle Crunch",
+                "reps": "1 min x 4 times"
+              },
+              {
+                "name": "Sit-up",
+                "reps": "30 reps x 4 times"
+              },
+              {
+                "name": "Russian Twist",
+                "reps": "2 mins x 4 times"
+              }
+            ]
+          }
+        ],
+        "info" : null,
+        "comment": "Recommended intensity: 70% and above"
+    },
+    {
+        "id": "aid_4",
+        "exercises": [
+            {
+                "session": "day 1",
+                "plan": [
+                    {
+                    "name": "Cardio Exercise",
+                    "reps": "10 mins"
+                    },
+                    {
+                    "name": "Bench Press",
+                    "reps": "8 reps x 4 times"
+                    },
+                    {
+                    "name": "Inclined Bench Press",
+                    "reps": "8 reps x 4 times"
+                    },
+                    {
+                    "name": "Declined Bench Press",
+                    "reps": "8 reps x 4 times"
+                    },
+                    {
+                    "name": "Bicep barbell curl",
+                    "reps": "8 reps x 4 times"
+                    },
+                    {
+                    "name": "Bicep dumbbell curl",
+                    "reps": "8 reps x 4 times"
+                    },
+                    {
+                    "name": "Hammer curl",
+                    "reps": "8 reps x 4 times"
+                    }
+                ]
+            },
+            {
+                "session": "day 2",
+                "plan": [
+                    {
+                    "name": "Cardio Exercise",
+                    "reps": "20 mins"
+                    },
+                    {
+                    "name": "Overhead press",
+                    "reps": "8 reps x 4 times"
+                    },
+                    {
+                    "name": "Arnold Press",
+                    "reps": "8 reps x 4 times"
+                    },
+                    {
+                    "name": "Dumbbell lateral raise",
+                    "reps": "8 reps x 4 times"
+                    },
+                    {
+                    "name": "Plank",
+                    "reps": "2 mins x 4 times"
+                    },
+                    {
+                    "name": "Bicycle Crunch",
+                    "reps": "1 min x 4 times"
+                    },
+                    {
+                    "name": "Sit-up",
+                    "reps": "30 reps x 4 times"
+                    },
+                    {
+                    "name": "Russian Twist",
+                    "reps": "2 mins x 4 times"
+                    }
+                ]
+            },
+            {
+                "session": "day 3",
+                "plan": [
+                    {
+                    "name": "Pull-up",
+                    "reps": "10 reps x 3 times"
+                    },
+                    {
+                    "name": "Seated cable row",
+                    "reps": "8 reps x 4 times"
+                    },
+                    {
+                    "name": "Bent-over row",
+                    "reps": "8 reps x 4 times"
+                    },
+                    {
+                    "name": "Deadlift",
+                    "reps": "8 reps x 4 times"
+                    },
+                    {
+                    "name": "Overhead tricep extension",
+                    "reps": "8 reps x 4 times"
+                    },
+                    {
+                    "name": "Lying tricep extension",
+                    "reps": "8 reps x 4 times"
+                    },
+                    {
+                    "name": "Close grip bench press",
+                    "reps": "8 reps x 4 times"
+                    }
+                ]
+            },
+            {
+                "session": "day 4",
+                "plan": [
+                    {
+                    "name": "Cardio exercise",
+                    "reps": "20 mins"
+                    },
+                    {
+                    "name": "Squat",
+                    "reps": "12 reps x 4 times"
+                    },
+                    {
+                    "name": "Half squat",
+                    "reps": "12 reps x 4 times"
+                    },
+                    {
+                    "name": "Reverse Lunge",
+                    "reps": "12 reps x 4 times"
+                    },
+                    {
+                    "name": "Standing barbell calf raise",
+                    "reps": "18 reps x 4 times"
+                    }
+                ]
+            }
+        ],
+        "info": null,
+        "comment": "Recommended intensity: 80% and above"
+    },
+    {
+        "id": "aid_5",
+        "exercises": [
+            {
+                "session": "day 1",
+                "plan": [
+                    {
+                    "name": "Cardio Exercise",
+                    "reps": "20 mins"
+                    },
+                    {
+                    "name": "Bench Press",
+                    "reps": "12 reps x 4 times"
+                    },
+                    {
+                    "name": "Inclined Bench Press",
+                    "reps": "12 reps x 4 times"
+                    },
+                    {
+                    "name": "Bicep barbell curl",
+                    "reps": "12 reps x 4 times"
+                    },
+                    {
+                    "name": "Bicep dumbbell curl",
+                    "reps": "12 reps x 4 times"
+                    },
+                    {
+                    "name": "Hammer curl",
+                    "reps": "12 reps x 4 times"
+                    }
+                ]
+            },
+            {
+                "session": "day 2",
+                "plan": [
+                    {
+                    "name": "Cardio Exercise",
+                    "reps": "20 mins"
+                    },
+                    {
+                    "name": "Overhead press",
+                    "reps": "12 reps x 4 times"
+                    },
+                    {
+                    "name": "Arnold Press",
+                    "reps": "12 reps x 4 times"
+                    },
+                    {
+                    "name": "Dumbbell lateral raise",
+                    "reps": "12 reps x 4 times"
+                    },
+                    {
+                    "name": "Plank",
+                    "reps": "2 mins x 4 times"
+                    },
+                    {
+                    "name": "Bicycle Crunch",
+                    "reps": "1 min x 4 times"
+                    },
+                    {
+                    "name": "Sit-up",
+                    "reps": "30 reps x 4 times"
+                    }
+                ]
+            },
+            {
+                "session": "day 3",
+                "plan": [
+                    {
+                    "name": "Pull-up",
+                    "reps": "10 reps x 3 times"
+                    },
+                    {
+                    "name": "Seated cable row",
+                    "reps": "12 reps x 4 times"
+                    },
+                    {
+                    "name": "Bent-over row",
+                    "reps": "12 reps x 4 times"
+                    },
+                    {
+                    "name": "Deadlift",
+                    "reps": "12 reps x 4 times"
+                    },
+                    {
+                    "name": "Overhead tricep extension",
+                    "reps": "20 reps x 4 times"
+                    },
+                    {
+                    "name": "Lying tricep extension",
+                    "reps": "20 reps x 4 times"
+                    }
+                ]
+            },
+            {
+                "session": "day 4",
+                "plan": [
+                    {
+                    "name": "Cardio exercise",
+                    "reps": "20 mins"
+                    },
+                    {
+                    "name": "Squat",
+                    "reps": "12 reps x 4 times"
+                    },
+                    {
+                    "name": "Half squat",
+                    "reps": "12 reps x 4 times"
+                    },
+                    {
+                    "name": "Reverse Lunge",
+                    "reps": "12 reps x 4 times"
+                    },
+                    {
+                    "name": "Standing barbell calf raise",
+                    "reps": "18 reps x 4 times"
+                    }
+                ]
+            }
+        ],
+        "info": null,
+        "comment": "Recommended intensity: 70% and above"
+    },
+    {
+        "id": "aid_6",
+        "exercises": null,
+        "info": [
+            {
+                "name" : "Cardio Exercise",
+                "description" : [
+                    {
+                        "note" : "Cardio Workout at Home",
+                        "related_link" : "https://www.youtube.com/watch?v=ml6cT4AZdqI"
+                    },
+                    {
+                        "note" : "Cardio Workout at Home",
+                        "related_link" : "https://www.youtube.com/watch?v=ml6cT4AZdqI"
+                    },
+                    {
+                        "note" : "High-Intensity Interval Training (HIIT) Cardio Workout",
+                        "Link" : "https://www.youtube.com/watch?v=ml6cT4AZdqI"
+                    }
+                ]
+            },
+            {
+                "name": "Chest Press",
+                "description": [
+                    {
+                        "note": "Chest Press Exercise",
+                        "related_link": "https://www.youtube.com/watch?v=8uAi1FuDzvE"
+                    },
+                    {
+                        "note": "How to Do the Chest Press",
+                        "related_link": "https://www.youtube.com/watch?v=URqDdB5fF-M"
+                    },
+                    {
+                        "note": "Barbell Chest Press",
+                        "related_link": "https://www.youtube.com/watch?v=3BxZAwezHp0"
+                    }
+                ]
+            },
+            {
+                "name": "Biceps Curling",
+                "description": [
+                    {
+                        "note": "Bicep Curl Exercise",
+                        "related_link": "https://www.youtube.com/watch?v=kwG2ipFRgfo"
+                    },
+                    {
+                        "note": "Dumbbell Bicep Curl",
+                        "related_link": "https://www.youtube.com/watch?v=oyPBtExIS7U"
+                    },
+                    {
+                        "note": "Standing Barbell Curl",
+                        "related_link": "https://www.youtube.com/watch?v=xVrZFMj7C6A"
+                    }
+                ]
+            },
+            {
+                "name": "Triceps extension",
+                "description": [
+                    {
+                        "note": "Tricep Extension Exercise",
+                        "related_link": "https://www.youtube.com/watch?v=oEGZw0a7n6U"
+                    },
+                    {
+                        "note": "Dumbbell Tricep Extension",
+                        "related_link": "https://www.youtube.com/watch?v=bbK6uFb5q0w"
+                    },
+                    {
+                        "note": "Tricep Dips",
+                        "related_link": "https://www.youtube.com/watch?v=2z8JmcrW-As"
+                    }
+                ]
+            },
+            {
+                "name": "Triceps extension",
+                "description": [
+                    {
+                        "note": "Triceps Extension Exercise",
+                        "related_link": "https://www.youtube.com/watch?v=oEGZw0a7n6U"
+                    },
+                    {
+                        "note": "Dumbbell Triceps Extension",
+                        "related_link": "https://www.youtube.com/watch?v=bbK6uFb5q0w"
+                    },
+                    {
+                        "note": "Triceps Pushdown",
+                        "related_link": "https://www.youtube.com/watch?v=9Ef9Je8CL6g"
+                    }
+                ]
+            },
+            {
+                "name": "Shoulder Lift",
+                "description": [
+                    {
+                        "note": "Shoulder Press Exercise",
+                        "related_link": "https://www.youtube.com/watch?v=czXuKniE_5w"
+                    },
+                    {
+                        "note": "Dumbbell Shoulder Press",
+                        "related_link": "https://www.youtube.com/watch?v=bB7tFhDk3Pg"
+                    },
+                    {
+                        "note": "Barbell Shoulder Press",
+                        "related_link": "https://www.youtube.com/watch?v=K2Vlj_7Bc0I"
+                    }
+                ]
+            },
+            {
+                "name": "Deadlift",
+                "description": [
+                    {
+                        "note": "Deadlift Exercise",
+                        "related_link": "https://www.youtube.com/watch?v=op9kVnSso6Q"
+                    },
+                    {
+                        "note": "Sumo Deadlift",
+                        "related_link": "https://www.youtube.com/watch?v=x4qezM6lakw"
+                    },
+                    {
+                        "note": "Romanian Deadlift",
+                        "related_link": "https://www.youtube.com/watch?v=ihVAgwFS6j0"
+                    }
+                ]
+            },
+            {
+                "name": "Leg Press",
+                "description": [
+                    {
+                        "note": "Leg Press Exercise",
+                        "related_link": "https://www.youtube.com/watch?v=3jSVl2gY5PQ"
+                    },
+                    {
+                        "note": "How to Leg Press",
+                        "related_link": "https://www.youtube.com/watch?v=QAiFNBuTC6c"
+                    },
+                    {
+                        "note": "Leg Press Variations",
+                        "related_link": "https://www.youtube.com/watch?v=4sd_3jFgXsg"
+                    }
+                ]
+            },
+            {
+                "name": "Bench Press",
+                "description": [
+                    {
+                        "note": "Bench Press Tutorial",
+                        "related_link": "https://www.youtube.com/watch?v=BYKScL2sgCs"
+                    },
+                    {
+                        "note": "How to Bench Press",
+                        "related_link": "https://www.youtube.com/watch?v=_QnwAoesJvQ"
+                    },
+                    {
+                        "note": "Bench Press Mistakes",
+                        "related_link": "https://www.youtube.com/watch?v=V4lD5J4j2DQ"
+                    }
+                ]
+            },
+            {
+                "name": "Inclined Bench Press",
+                "description": [
+                    {
+                        "note": "Incline Bench Press Exercise",
+                        "related_link": "https://www.youtube.com/watch?v=llotswM9r94"
+                    },
+                    {
+                        "note": "How to Incline Bench Press",
+                        "related_link": "https://www.youtube.com/watch?v=9vwRN8Z7_Cs"
+                    },
+                    {
+                        "note": "Incline Bench Press Tips",
+                        "related_link": "https://www.youtube.com/watch?v=UXf1CnCQihs"
+                    }
+                ]
+            },
+            {
+                "name": "Declined Bench Press",
+                "description": [
+                    {
+                        "note": "Decline Bench Press Exercise",
+                        "related_link": "https://www.youtube.com/watch?v=T0X-9sD0bes"
+                    },
+                    {
+                        "note": "How to Decline Bench Press",
+                        "related_link": "https://www.youtube.com/watch?v=3Es5Nv3K8QQ"
+                    },
+                    {
+                        "note": "Decline Bench Press Tips",
+                        "related_link": "https://www.youtube.com/watch?v=9B8i58rtwYM"
+                    }
+                ]
+            },
+            {
+                "name": "Bicep Barbell Curl",
+                "description": [
+                    {
+                        "note": "Barbell Bicep Curl Exercise",
+                        "related_link": "https://www.youtube.com/watch?v=0AUGqYNijhM"
+                    },
+                    {
+                        "note": "How to Barbell Curl",
+                        "related_link": "https://www.youtube.com/watch?v=ykJmrZ5v0Oo"
+                    },
+                    {
+                        "note": "Barbell Curl Variations",
+                        "related_link": "https://www.youtube.com/watch?v=n4bZjUer2zM"
+                    }
+                ]
+            },
+            {
+                "name": "Bicep Dumbbell Curl",
+                "description": [
+                    {
+                        "note": "Dumbbell Bicep Curl Exercise",
+                        "related_link": "https://www.youtube.com/watch?v=sgV74Ml8gSw"
+                    },
+                    {
+                        "note": "How to Dumbbell Curl",
+                        "related_link": "https://www.youtube.com/watch?v=NyEZwB1z4Cs"
+                    },
+                    {
+                        "note": "Dumbbell Curl Variations",
+                        "related_link": "https://www.youtube.com/watch?v=fcN37TxBE_s"
+                    }
+                ]
+            },
+            {
+                "name": "Hammer Curl",
+                "description": [
+                    {
+                        "note": "Hammer Curl Exercise",
+                        "related_link": "https://www.youtube.com/watch?v=TwD-YGVP4Bk"
+                    },
+                    {
+                        "note": "How to Do Hammer Curls",
+                        "related_link": "https://www.youtube.com/watch?v=3QNZF7vGJH4"
+                    },
+                    {
+                        "note": "Hammer Curl Benefits",
+                        "related_link": "https://www.youtube.com/watch?v=mw4xyaSsjzU"
+                    }
+                ]
+            },
+            {
+                "name": "Overhead Press",
+                "description": [
+                    {
+                        "note": "Overhead Press Exercise",
+                        "related_link": "https://www.youtube.com/watch?v=ZcC9szyjS5g"
+                    },
+                    {
+                        "note": "How to Overhead Press",
+                        "related_link": "https://www.youtube.com/watch?v=wol7Hko8RhY"
+                    },
+                    {
+                        "note": "Overhead Press Mistakes",
+                        "related_link": "https://www.youtube.com/watch?v=J8Ik-lYc6Ao"
+                    }
+                ]
+            },
+            {
+                "name": "Arnold Press",
+                "description": [
+                    {
+                        "note": "Arnold Press Exercise",
+                        "related_link": "https://www.youtube.com/watch?v=JB2oyawG9KI"
+                    },
+                    {
+                        "note": "How to Do Arnold Press",
+                        "related_link": "https://www.youtube.com/watch?v=JFZWM-_JNhQ"
+                    },
+                    {
+                        "note": "Arnold Press Variations",
+                        "related_link": "https://www.youtube.com/watch?v=ffMfp_OB47s"
+                    }
+                ]
+            },
+            {
+                "name": "Dumbbell Lateral Raise",
+                "description": [
+                    {
+                        "note": "Dumbbell Lateral Raise Exercise",
+                        "related_link": "https://www.youtube.com/watch?v=Iqo7wNmMVOg"
+                    },
+                    {
+                        "note": "How to Do Lateral Raises",
+                        "related_link": "https://www.youtube.com/watch?v=70Y1jXtAxGs"
+                    },
+                    {
+                        "note": "Lateral Raise Variations",
+                        "related_link": "https://www.youtube.com/watch?v=PHIv2ewV3v4"
+                    }
+                ]
+            },
+            {
+                "name": "Plank",
+                "description": [
+                    {
+                        "note": "Plank Exercise",
+                        "related_link": "https://www.youtube.com/watch?v=pSHjTRCQxIw"
+                    },
+                    {
+                        "note": "How to Do a Plank",
+                        "related_link": "https://www.youtube.com/watch?v=ASdvN_XEl_c"
+                    },
+                    {
+                        "note": "Plank Variations",
+                        "related_link": "https://www.youtube.com/watch?v=ynUw0YsrmSg"
+                    }
+                ]
+            },
+            {
+                "name": "Bicycle Crunch",
+                "description": [
+                    {
+                        "note": "Bicycle Crunch Exercise",
+                        "related_link": "https://www.youtube.com/watch?v=9FGilxCbdz8"
+                    },
+                    {
+                        "note": "How to Do Bicycle Crunches",
+                        "related_link": "https://www.youtube.com/watch?v=JYj0QSSyjck"
+                    },
+                    {
+                        "note": "Bicycle Crunch Tips",
+                        "related_link": "https://www.youtube.com/watch?v=Fz3yltbwa1I"
+                    }
+                ]
+            },
+            {
+                "name": "Sit-up",
+                "description": [
+                    {
+                        "note": "Sit-Up Exercise",
+                        "related_link": "https://www.youtube.com/watch?v=1fbU_MkV7NE"
+                    },
+                    {
+                        "note": "How to Do Sit-Ups",
+                        "related_link": "https://www.youtube.com/watch?v=jDwoBqPH0jk"
+                    },
+                    {
+                        "note": "Sit-Up Variations",
+                        "related_link": "https://www.youtube.com/watch?v=CCbI7lq0D4E"
+                    }
+                ]
+            },
+            {
+                "name": "Russian Twist",
+                "description": [
+                    {
+                        "note": "Russian Twist Exercise",
+                        "related_link": "https://www.youtube.com/watch?v=wkD8rjkodUI"
+                    },
+                    {
+                        "note": "How to Do Russian Twists",
+                        "related_link": "https://www.youtube.com/watch?v=7w3En2f1Ftk"
+                    },
+                    {
+                        "note": "Russian Twist Tips",
+                        "related_link": "https://www.youtube.com/watch?v=3oWuIfRN_M0"
+                    }
+                ]
+            },
+            {
+                "name": "Pull-up",
+                "description": [
+                    {
+                        "note": "Pull-Up Exercise",
+                        "related_link": "https://www.youtube.com/watch?v=JF1rjtP1ZaQ"
+                    },
+                    {
+                        "note": "How to Do a Pull-Up",
+                        "related_link": "https://www.youtube.com/watch?v=JBW2dkek-WI"
+                    },
+                    {
+                        "note": "Pull-Up Variations",
+                        "related_link": "https://www.youtube.com/watch?v=Z_NkKn5Xfao"
+                    }
+                ]
+            },
+            {
+                "name": "Seated Cable Row",
+                "description": [
+                    {
+                        "note": "Seated Cable Row Exercise",
+                        "related_link": "https://www.youtube.com/watch?v=V49Jlce4aSE"
+                    },
+                    {
+                        "note": "How to Do Seated Cable Rows",
+                        "related_link": "https://www.youtube.com/watch?v=I8mL02FfGIg"
+                    },
+                    {
+                        "note": "Seated Cable Row Tips",
+                        "related_link": "https://www.youtube.com/watch?v=pRcdygJOcpU"
+                    }
+                ]
+            },
+            {
+                "name": "Bent-Over Row",
+                "description": [
+                    {
+                        "note": "Bent-Over Row Exercise",
+                        "related_link": "https://www.youtube.com/watch?v=gwEpza3Wm9c"
+                    },
+                    {
+                        "note": "How to Do Bent-Over Rows",
+                        "related_link": "https://www.youtube.com/watch?v=U4BSMkE5PKU"
+                    },
+                    {
+                        "note": "Bent-Over Row Tips",
+                        "related_link": "https://www.youtube.com/watch?v=ju6qCoLgN_0"
+                    }
+                ]
+            },
+            {
+                "name": "Deadlift",
+                "description": [
+                    {
+                        "note": "Deadlift Exercise",
+                        "related_link": "https://www.youtube.com/watch?v=op9kVnSso6Q"
+                    },
+                    {
+                        "note": "How to Do Deadlifts",
+                        "related_link": "https://www.youtube.com/watch?v=jEy_czb3RKA"
+                    },
+                    {
+                        "note": "Deadlift Tips for Proper Form",
+                        "related_link": "https://www.youtube.com/watch?v=xS2wLZSdeDg"
+                    }
+                ]
+            },
+            {
+                "name": "Overhead Tricep Extension",
+                "description": [
+                    {
+                        "note": "Overhead Tricep Extension Exercise",
+                        "related_link": "https://www.youtube.com/watch?v=hhnFX5fCrV4"
+                    },
+                    {
+                        "note": "How to Do Overhead Tricep Extensions",
+                        "related_link": "https://www.youtube.com/watch?v=mbub1QgIi8Q"
+                    },
+                    {
+                        "note": "Overhead Tricep Extension Variations",
+                        "related_link": "https://www.youtube.com/watch?v=5gOFsTfP9I0"
+                    }
+                ]
+            },
+            {
+                "name": "Lying Tricep Extension",
+                "description": [
+                    {
+                        "note": "Lying Tricep Extension Exercise",
+                        "related_link": "https://www.youtube.com/watch?v=JjgXHGg0D1Q"
+                    },
+                    {
+                        "note": "How to Do Lying Tricep Extensions",
+                        "related_link": "https://www.youtube.com/watch?v=nAm4nZpNr4Y"
+                    },
+                    {
+                        "note": "Lying Tricep Extension Tips",
+                        "related_link": "https://www.youtube.com/watch?v=F9mKPWYXQzE"
+                    }
+                ]
+            },
+            {
+                "name": "Close Grip Bench Press",
+                "description": [
+                    {
+                        "note": "Close Grip Bench Press Exercise",
+                        "related_link": "https://www.youtube.com/watch?v=wKhI-O4HI8M"
+                    },
+                    {
+                        "note": "How to Do Close Grip Bench Press",
+                        "related_link": "https://www.youtube.com/watch?v=-rh3MHnRI_I"
+                    },
+                    {
+                        "note": "Close Grip Bench Press Tips",
+                        "related_link": "https://www.youtube.com/watch?v=B_iLZeeecig"
+                    }
+                ]
+            },
+            {
+                "name": "Squat",
+                "description": [
+                    {
+                        "note": "How to Do Squats",
+                        "related_link": "https://www.youtube.com/watch?v=U3vSoGa8xO0"
+                    },
+                    {
+                        "note": "Squat Exercise",
+                        "related_link": "https://www.youtube.com/watch?v=Dy28eq2PjcM"
+                    },
+                    {
+                        "note": "Squat Variations and Tips",
+                        "related_link": "https://www.youtube.com/watch?v=U2H6fYXCCk4"
+                    }
+                ]
+            },
+            {
+                "name": "Half Squat",
+                "description": [
+                    {
+                        "note": "Half Squat Exercise",
+                        "related_link": "https://www.youtube.com/watch?v=SCQe-7k1xQs"
+                    },
+                    {
+                        "note": "How to Do Half Squats",
+                        "related_link": "https://www.youtube.com/watch?v=8wruopElq4A"
+                    },
+                    {
+                        "note": "Half Squat Benefits and Variations",
+                        "related_link": "https://www.youtube.com/watch?v=hCrg4ySW3GQ"
+                    }
+                ]
+            },
+            {
+                "name": "Reverse Lunge",
+                "description": [
+                    {
+                        "note": "Reverse Lunge Exercise",
+                        "related_link": "https://www.youtube.com/watch?v=QKH9IxLxQI0"
+                    },
+                    {
+                        "note": "How to Do Reverse Lunges",
+                        "related_link": "https://www.youtube.com/watch?v=ml6cT4AZdqI"
+                    },
+                    {
+                        "note": "Reverse Lunge Variations and Benefits",
+                        "related_link": "https://www.youtube.com/watch?v=AdTk4_gdt4I"
+                    }
+                ]
+            },
+            {
+                "name": "Standing Barbell Calf Raise",
+                "description": [
+                    {
+                        "note": "Standing Barbell Calf Raise Exercise",
+                        "related_link": "https://www.youtube.com/watch?v=cuq2l2tysNk"
+                    },
+                    {
+                        "note": "How to Do Standing Barbell Calf Raises",
+                        "related_link": "https://www.youtube.com/watch?v=ZZCwF5DIU5s"
+                    },
+                    {
+                        "note": "Standing Barbell Calf Raise Tips and Variations",
+                        "related_link": "https://www.youtube.com/watch?v=gfm-yM-6LfQ"
+                    }
+                ]
+            },
+            {
+                "name": "Zumba or Boxing",
+                "description": [
+                    {
+                        "note": "Zumba Workout at Home",
+                        "related_link": "https://www.youtube.com/watch?v=ml6cT4AZdqI"
+                    },
+                    {
+                        "note": "Boxing Workout for Beginners",
+                        "related_link": "https://www.youtube.com/watch?v=ml6cT4AZdqI"
+                    },
+                    {
+                        "note": "Zumba or Boxing Classes and Benefits",
+                        "related_link": "https://www.youtube.com/watch?v=ml6cT4AZdqI"
+                    }
+                ]
+            }
+        ],
+        "comment": "Please note that the provided links are for illustrative purposes and you may choose to search for specific variations or tutorials that suit your needs."
+    },
+    {
+        "id" : "aid_8",
+        "exercises" : null,
+        "inof" : [
+            {
+                "name" : "Lifesum",
+                "description" : [
+                    {
+                        "note" : "Lifesum is a versatile workout tracking app that helps users achieve fitness goals by offering personalized exercise plans, tracking workouts, and monitoring calories burned.",
+                        "related_link" : "https://lifesum.com/"
+                    }
+                ]
+            },
+            {
+                "name" : "MyFitnessPal",
+                "description" : [
+                    {
+                        "note" : "MyFitnessPal is a popular calorie counter and diet tracker app. It helps users track their food intake, exercise, and reach their fitness goals.",
+                        "related_link" : "https://www.myfitnesspal.com/"
+                    }
+                ]
+            },
+            {
+                "name" : "Nike Training Club",
+                "description" : [
+                    {
+                        "note" : "Nike Training Club is a fitness app that provides personalized workouts, training plans, and expert guidance. Achieve your fitness goals with a wide range of workouts designed for all fitness levels.",
+                        "related_link" : "https://www.nike.com/ntc-app"
+                    }
+                ]
+            }
+        ],
+        "comment" : null
+    }
+  ]
+}
+

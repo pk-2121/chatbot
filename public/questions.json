@@ -1,0 +1,586 @@
+{
+  "questions": [
+    {
+        "id": "qid_0",
+        "question": "Would you like to get started now?",
+        "keywords" : [
+                {
+                    "key" : ["yes", "yeah", "yea", "love", "like", "start", "ok", "okay", "fine", "please", "give", "provide"],
+                    "category" : "start"
+                },
+                {
+                    "key" : ["no", "not", "dont"],
+                    "category" : "wait"
+                }
+        ],
+        "function" : null,
+        "prerequisite" : null,
+        "link" : [
+                {
+                    "category" : "start",
+                    "id" : ["qid_1"],
+                    "next" : null
+                },
+                {
+                    "category" : "wait",
+                    "id" : ["qid_21"],
+                    "next" : null
+                }
+        ],
+        "comment" : "Since I am a limited bot, I cannot fully understand what you have said. Could you please choose 'yes' or 'no'. Sorry for inconvenience."
+    },
+    {
+        "id": "qid_1",
+        "question": "Before we begin, I need some information from you to generate a personalized plan. First, may I ask your age?",
+        "keywords" : null,
+        "function" : "getAge",
+        "prerequisite" : null,
+        "link" : [
+            {
+                "category" : "next",
+                "id" : ["qid_2"],
+                "next" : null
+            }
+        ],
+        "comment" : "Please provide the integer data."
+    },
+    {
+        "id": "qid_2",
+        "question": "What is your height in centimeters (cm)?",
+        "keywords" : null,
+        "function" : "getHeightInCm",
+        "prerequisite" : null,
+        "link" :[
+            {
+                "category" : "next",
+                "id" : ["qid_3"],
+                "next" : null
+            }
+        ],
+        "comment" : "Since this is a mandatory question to calculate your workout plan, please provide the integer data in centimeter measurement."
+    },
+    {
+        "id": "qid_3",
+        "question": "What is your weight in kilograms (kg)?",
+        "keywords" : null,
+        "function" : "getWeightInKg",
+        "prerequisite" : null,
+        "link" :[
+            {
+                "category" : "next",
+                "id" : ["qid_4"],
+                "next" : null
+            }
+        ],
+        "comment" : "Since this is a mandatory question to calculate your workout plan, please provide the integer data in kilogram measurement."
+    },
+    {
+      "id": "qid_4",
+      "question": "What is your gender?",
+      "keywords" : [
+            {
+              "key" : ["female", "f" , "girl", "woman", "lady"],
+              "category": "female"
+            },
+            {
+              "key" : ["male", "m", "boy", "guy", "man"],
+              "category": "male"
+            }
+        ],
+      "function" : null,
+      "prerequisite" : null,
+      "link" :[
+            {
+                "category" : "female",
+                "id" : ["qid_5"],
+                "next" : null
+            },
+            {
+              "category" : "male",
+              "id" : ["qid_5"],
+              "next" : null
+            }
+        ],
+      "comment" : "Since this is a mandatory question to calculate your workout plan., please provide the data. (M or F) is also fine."
+    },
+    {
+      "id": "qid_5",
+      "question": "What is your fitness goal: weight gain, weight loss, or overall fitness?",
+      "keywords" :[
+            {
+                "key" : ["loss", "reduce"],
+                "category" : "loss"
+            },
+            {
+                "key" : ["gain", "muscle"],
+                "category" : "gain"
+            },
+            {
+                "key" : ["fitness", "fit", "overall"],
+                "category" : "fitness"
+            }
+        ],
+      "function" : null,
+      "prerequisite" : null,
+      "link" : [
+            {
+                "category" : "loss",
+                "id" : [ "qid_6" ],
+                "next" : null
+            },
+            {
+              "category" : "gain",
+              "id" : [ "qid_6" ],
+              "next" : null
+            },
+            {
+              "category" : "fitness",
+              "id" : [ "qid_6" ],
+              "next" : null
+            }
+        ],
+      "comment" : "Since I am a limited bot, I cannot fully understand what you have said. Could you please choose weight gain, weight loss or overall fitness. Sorry for inconvenience."
+    },
+    {
+        "id": "qid_6",
+        "question": "How many workout sessions would you like to have per week?",
+        "keywords" : null,
+        "function" : "getNumberOfSession",
+        "prerequisite" : null,
+        "link" :[
+            {
+              "category" : "next",
+              "id" : ["qid_7"],
+              "next" : null
+            }
+        ],
+        "comment" : "Please provide the integer data which is less than 7"
+    },
+    {
+      "id": "qid_7",
+      "question": "How would you describe your activity level: 'Sedentary', 'Moderately Active', or 'Highly Active'?",
+      "keywords" :[
+            {
+                "key" : ["sedentary"],
+                "category" : "sedentary"
+            },
+            {
+                "key" : ["moderately"],
+                "category" : "moderately"
+            },
+            {
+                "key" : ["highly"],
+                "category" : "highly"
+            }
+        ],
+      "function" : null,
+      "prerequisite" : null,
+      "link" : [
+            {
+              "category" : "sedentary",
+              "id" : ["qid_8"],
+              "next" : null
+            },
+            {
+              "category" : "moderately",
+              "id" : ["qid_8"],
+              "next" : null
+            },
+            {
+              "category" : "highly",
+              "id" : ["qid_8"],
+              "next" : null
+            }
+        ],
+      "comment" : "Since I am a limited bot, I cannot fully understand what you have said. Could you please choose one of the options we have provided. Sorry for inconvenience."
+    },
+    {
+      "id": "qid_8",
+      "question": "Do you have any existing medical conditions or injuries that may impact your ability to exercise?",
+      "keywords" :[
+        {
+          "key" : ["no", "dont", "do not", "free"],
+          "category" : "free"
+        },
+        {
+          "key" : ["yes", "have"],
+          "category" : "injuries"
+        }
+      ],
+      "function" : null,
+      "prerequisite" : null,
+      "link" : [
+        {
+          "category" : "free",
+          "id" : ["qid_9"],
+          "next" : null
+        },
+        {
+          "category" : "injuries",
+          "id" : ["aid_15"],
+          "next" :["qid_15"]
+        }
+      ],
+      "comment" : "Since this is a mandatory question to calculate your specific workout plan, please provide the data"
+    },
+    {
+      "id": "qid_9",
+      "question": "Now, what would you like to start with? Would you like a general workout plan or a specific workout plan?",
+      "keywords" :[
+            {
+                "key" : ["general", "first"],
+                "category" : "general"
+            },
+            {
+                "key" : ["specific", "second"],
+                "category" : "specific"
+            }
+        ],
+      "function" : "getWorkoutPlan",
+      "prerequisite" : ["qid_2","qid_3","qid_5","qid_6"],
+      "link" : [
+            {
+              "category" : "general",
+              "id" : ["aid_0", "aid_1", "aid_2"],
+              "next" : ["qid_11"]
+            },
+            {
+              "category" : "specific",
+              "id" : ["aid_3", "aid_4", "aid_5"],
+              "next" : ["qid_10"]
+            }
+        ],
+      "comment" : "Since I am a limited bot, I cannot fully understand what you have said. Could you please choose one of the options we have provided ['General' or 'Specific']. Sorry for inconvenience."
+    },
+    {
+      "id": "qid_10",
+      "question": "We can also provide you with a general workout plan to give you a basic idea of your workout routine. Would you like to receive it?",
+      "keywords" :[
+            {
+                "key" : ["yes", "ok", "love", "like", "give", "provide", "general", "interested", "course"],
+                "category" : "general"
+            },
+            {
+                "key" : ["no", "dont", "not"],
+                "category" : "skip"
+            }
+        ],
+      "function" : "getWorkoutPlan",
+      "prerequisite" : ["qid_2","qid_3","qid_5"],
+      "link" : [
+            {
+              "category" : "general",
+              "id" : ["aid_0", "aid_1", "aid_2"],
+              "next" : ["qid_12"]
+            },
+            {
+              "category" : "skip",
+              "id" : ["qid_12"],
+              "next" : null
+            }
+        ],
+      "comment" : "Since I am a limited bot, I cannot fully understand what you have said. Could you please choose ['Yes' or 'No']. Sorry for inconvenience."
+    },
+    {
+      "id": "qid_11",
+      "question": "We have also designed a specific workout plan for you. Would you like to receive it?",
+      "keywords" :[
+            {
+                "key" : ["yes", "ok", "love", "like", "give", "provide", "specific","interested", "course"],
+                "category" : "specific"
+            },
+            {
+                "key" : ["no", "dont", "not"],
+                "category" : "skip"
+            }
+        ],
+      "function" : "getWorkoutPlan",
+      "prerequisite" : ["qid_2","qid_3","qid_5","qid_6"],
+      "link" : [
+            {
+              "category" : "specific",
+              "id" : ["aid_3", "aid_4", "aid_5"],
+              "next" : ["qid_12"]
+            },
+            {
+              "category" : "skip",
+              "id" : ["qid_12"],
+              "next" : null
+            }
+        ],
+      "comment" : "Since I am a limited bot, I cannot fully understand what you have said. Could you please choose ['Yes' or 'No']?. Sorry for inconvenience."
+    },
+    {
+        "id": "qid_12",
+        "question": "We can provide you with some sample workout videos based on your needs. Which exercise would you like to receive? Please write exercise name in camelCase or TitleCase.",
+        "keywords" :[
+          {
+            "key" : ["no", "dont", "not"],
+            "category" : "skip"
+          }
+        ],
+        "function" : "getExerciseVideos",
+        "prerequisite" : null,
+        "link" : [
+            {
+              "category" : null,
+              "id" : ["aid_6"],
+              "next" : ["qid_13"]
+            },
+            {
+              "category" : "skip",
+              "id" : ["qid_14"],
+              "next" : null
+            }
+        ],
+        "comment" : "Since I am a limited bot, I cannot fully understand what you have said and please write exercise name in camelCase or TitleCase. I can only provide sample workout links for mentioned exercises in your plan. Sorry for inconvenience."
+    },
+    {
+      "id": "qid_13",
+      "question": "We can also provide you with other exercise videos. If you have a specific exercise in mind, please let us know exercise name in camelCase or TitleCase.",
+      "keywords" :[
+        {
+          "key" : ["no", "dont", "not"],
+          "category" : "skip"
+        }
+      ],
+      "function" : "getExerciseVideos",
+      "prerequisite" : null,
+      "link" : [
+        {
+          "category" : null,
+          "id" : ["aid_6"],
+          "next" : ["qid_14"]
+        },
+        {
+          "category" : "skip",
+          "id" : ["qid_14"],
+          "next" : null
+        }
+      ],
+        "comment" : "Since I am a limited bot, I cannot fully understand what you have said and please write exercise names in camelCase or TitleCase. I can only provide sample workout links for mentioned exercises in your plan. Sorry for inconvenience."
+    },
+    {
+        "id": "qid_14",
+        "question": "If you need any applications to track your workout routine and progress, we can recommend some workout applications.",
+        "keywords" :[
+                    {
+                        "key" : ["yes", "love", "like", "give", "provide", "interested", "course"],
+                        "category" : "application"
+                    },
+                    {
+                        "key" : ["no", "dont", "not"],
+                        "category" : "skip"
+                    }
+                ],
+        "function" : null,
+        "prerequisite" : null,
+        "link" : [
+            {
+              "category" : "application",
+              "id" : ["aid_7"],
+                "next" : ["qid_15"]
+            },
+            {
+              "category" : "skip",
+              "id" : ["qid_15"],
+                "next" : null
+            }
+        ],
+        "comment" : "Since I am a limited bot, I cannot fully understand. Could you please choose ['Yes' or 'No']? Sorry for inconvenience."
+    },
+    {
+        "id": "qid_15",
+        "question": "Apart from the workout plan, we have also designed a nutrition plan based on your Basal Metabolic Rate. Would you like to receive it?",
+        "keywords" :[
+          {
+            "key" : ["yes", "love", "like", "give", "provide", "nutrition", "interested","course"],
+            "category" : "nutrition"
+          },
+          {
+            "key" : ["no", "dont", "not"],
+            "category" : "skip"
+          }
+        ],
+        "function" : "getNutritionPlan",
+        "prerequisite" : ["qid_1","qid_2", "qid_3", "qid_4", "qid_7"],
+        "link" : [
+            {
+              "category" : "nutrition",
+              "id" : ["aid_8", "aid_9", "aid_10"],
+              "next" : ["qid_16"]
+            },
+            {
+              "category" : "skip",
+              "id" : ["qid_16"],
+              "next" : null
+            }
+        ],
+        "comment" : "Since I am a limited bot, I cannot fully understand. Could you please choose ['Yes' or 'No']? Sorry for inconvenience."
+    },
+    {
+        "id": "qid_16",
+        "question": "We can also provide you with food recommendations to support your nutrition plan. Would you like to receive them?",
+        "keywords" :[
+          {
+            "key" : ["yes", "love", "like", "give", "provide", "nutrition", "interested", "course"],
+            "category" : "food"
+          },
+          {
+            "key" : ["no", "dont", "not"],
+            "category" : "skip"
+          }
+        ],
+        "function" : null,
+        "prerequisite" : null,
+        "link" : [
+            {
+              "category" : "food",
+              "id" : ["aid_11"],
+                "next" : ["qid_17"]
+            },
+            {
+              "category" : "skip",
+              "id" : ["qid_17"],
+                "next" : null
+            }
+        ],
+        "comment" : "Since I am a limited bot, I cannot fully understand. Could you please choose ['Yes' or 'No']? Sorry for inconvenience."
+
+    },
+    {
+      "id": "qid_17",
+      "question": "If you're interested in supplements, we can also provide recommendations. Which supplements would you like to get? For [muscle mass] or [weight gain]?",
+      "keywords" :[
+                        {
+                            "key" : ["muscle", "mass"],
+                            "category" : "muscle"
+                        },
+                        {
+                            "key" : ["weight", "gain", "not"],
+                            "category" : "weight"
+                        },
+                        {
+                            "key" : ["all", "both"],
+                            "category" : "both"
+                        },
+                        {
+                            "key" : ["no", "dont", "not"],
+                            "category" : "skip"
+                        }
+                    ],
+        "function" : null,
+        "prerequisite" : null,
+        "link" : [
+            {
+              "category" : "muscle",
+              "id" : ["aid_12"],
+                "next" : ["qid_18"]
+            },
+            {
+              "category" : "weight",
+              "id" : ["aid_13"],
+                "next" : ["qid_18"]
+            },
+            {
+              "category" : "both",
+              "id" : ["aid_12, aid_13"],
+                "next" : ["qid_18"]
+            },
+            {
+              "category" : "skip",
+              "id" : ["qid_18"],
+                "next" : null
+            }
+        ],
+        "comment" : "Since I am a limited bot, I cannot fully understand. Could you please choose ['Yes' or 'No']? Sorry for inconvenience."
+    },
+    {
+      "id": "qid_18",
+      "question": "As our world becomes more challenging, we recommend incorporating daily mindfulness sessions for increased productivity and peace. If you'd like, we can recommend some mindfulness programs.",
+      "keywords" :[
+        {
+          "key" : ["yes", "love", "like", "give", "provide", "nutrition", "interested", "course"],
+          "category" : "mindfulness"
+        },
+        {
+          "key" : ["no", "dont", "not"],
+          "category" : "skip"
+        }
+      ],
+      "function" : null,
+      "prerequisite" : null,
+        "link" : [
+            {
+              "category" : "mindfulness",
+              "id" : ["aid_14"],
+                "next" : ["qid_19"]
+            },
+            {
+              "category" : "skip",
+              "id" : ["qid_19"],
+                "next" : null
+            }
+        ],
+        "comment" : "Since I am a limited bot, I cannot fully understand. Could you please choose ['Yes' or 'No']? Sorry for inconvenience."
+    },
+    {
+      "id": "qid_19",
+      "question": "We had a great conversation and that's all I can provide you now. I would like to conclude our conversation.",
+      "keywords" : [
+          {
+              "key" : ["yes", "yeah", "yea", "stop", "ok", "okay", "fine","course"],
+              "category" : "terminate"
+          }
+      ],
+      "function" : null,
+      "prerequisite" : null,
+      "link" : [
+          {
+              "category" : "next",
+              "id" : ["qid_20"],
+              "next" : null
+          }
+      ],
+      "comment" : "Since I am a limited bot, I cannot fully understand and tell you back. Sorry for inconvenience."
+    },
+    {
+      "id": "qid_20",
+      "question": "We had a great conversation. Bye!",
+      "keywords" : null,
+      "function" : null,
+      "prerequisite" : null,
+      "link" : null,
+      "comment" : null
+    },
+    {
+      "id": "qid_21",
+      "question": "If you want to start again, just type 'START'. We are always here!",
+      "keywords" : [
+          {
+              "key" : ["start"],
+              "category" : "start"
+          },
+        {
+          "key" : ["no", "dont", "not"],
+          "category" : "end"
+        }
+      ],
+      "function" : null,
+      "prerequisite" : null,
+      "link" : [
+          {
+              "category" : "start",
+              "id" : ["qid_01"],
+              "next" : null
+          },
+          {
+            "category" : "end",
+            "id" : ["qid_20"],
+            "next" : null
+          }
+      ],
+      "comment" : "Sorry, since I am a limited bot, I cannot fully understand. If you want to start again, just type 'START'."
+    }
+  ]
+}
